@@ -325,7 +325,7 @@ a {
   padding: 5px;
   margin-top: 40px;
   width: 400px;
-  height: 400px;
+  height: 390px;
   border-radius: 20px;
   border: 2px solid #4e4e4e;
 }
@@ -892,6 +892,71 @@ h4.border {
     margin-bottom: 30px;
   }
 }
+
+/*======================================================= 
+    contactArea section 
+======================================================= */
+
+.blog-details-section{
+   padding-top: 70px;
+  padding-bottom: 100px;
+  overflow: hidden;
+  display: block;
+  background-color: #FFFFFF;
+}
+
+.blog-details-title {
+    color: #333;
+  }
+
+  .blog-details:hover {
+    transform: translateY(-3px);
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  }
+
+  .blog-details img {
+    border-radius: 4px;
+  }
+
+  .text-muted small {
+    font-size: 0.8rem;
+  }
+
+  a.text-decoration-none:hover {
+    color: #0d6efd;
+  }
+
+  /* Main blog image */
+/* .blog-details .card-img-top {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 4px;
+} */
+
+.details-img{
+  width: 100%;
+  height: 500px !important;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.sidebar-img{
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+/* Sidebar image */
+/* .card .card-img-top {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 4px;
+} */
+
 
 /*======================================================= 
     contactArea section 
